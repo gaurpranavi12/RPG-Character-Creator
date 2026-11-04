@@ -41,4 +41,4 @@ def create_character(name, strength, intelligence, charisma):
     f'CHA {charisma * full_dot + (10 - charisma) * empty_dot}'                    #fourth line should show the charisma
     )
     
-print(create_character('ren', 4, 2, 1))                      #this runs and prints the code
+print(create_character('Bob', 4, 2, 1))                      #this runs and prints the code
